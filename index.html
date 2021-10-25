@@ -15,7 +15,7 @@
         <div class="header__wrapper">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="header__bars d-lg-none d-md-block d-block">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                    <svg width="35" height="35" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="1.5"
                             stroke-linecap="round" stroke-linejoin="round" />
@@ -93,10 +93,22 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
+                        <li class="menu-item-has-children">
                             <a href="">
                                 Truyện chữ
                             </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="">
+                                        Truyện chữ 1
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Truyện chữ 2
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <a href="">
@@ -161,7 +173,7 @@
                 </button>
             </form>
         </div>
-        <div class="menu-mobile">
+        <div class="menu-mobile d-lg-none d-block">
             <div class="menu-mobile-inner">
                 <ul>
                     <li>
@@ -222,10 +234,22 @@
                             </ul>
                         </div>
                     </li>
-                    <li>
+                    <li class="menu-item-has-children">
                         <a href="">
                             Truyện chữ
                         </a>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Truyện chữ 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Truyện chữ 2
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="">
@@ -242,12 +266,115 @@
             </div>
 
             <div class="close-btn">
-    
+
             </div>
         </div>
         <div class="overlay"></div>
     </header>
     <main class="home">
+        <div class="advertise-banner">
+            <div class="container">
+                <div class="banner-img">
+                    <img src="./images/qc1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="advertise-banner-left">
+            <img src="./images/qcleft.png" alt="">
+        </div>
+        <div class="advertise-banner-right">
+            <img src="./images/qcleft.png" alt="">
+        </div>
+
+        <section class="chat-forum">
+            <div class="container">
+                <h3 class="chat-forum-title">
+                    <span class="icon">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2 5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H11C11.5304 3 12.0391 3.21071 12.4142 3.58579C12.7893 3.96086 13 4.46957 13 5V9C13 9.53043 12.7893 10.0391 12.4142 10.4142C12.0391 10.7893 11.5304 11 11 11H9L6 14V11H4C3.46957 11 2.96086 10.7893 2.58579 10.4142C2.21071 10.0391 2 9.53043 2 9V5Z"
+                                fill="#27AE60" />
+                            <path
+                                d="M15 7V9C15 10.0609 14.5786 11.0783 13.8284 11.8284C13.0783 12.5786 12.0609 13 11 13H9.82801L8.06201 14.767C8.34201 14.916 8.66101 15 9.00001 15H11L14 18V15H16C16.5304 15 17.0392 14.7893 17.4142 14.4142C17.7893 14.0391 18 13.5304 18 13V9C18 8.46957 17.7893 7.96086 17.4142 7.58579C17.0392 7.21071 16.5304 7 16 7H15Z"
+                                fill="#27AE60" />
+                        </svg>
+
+                    </span>
+                    <p>
+                        Chat forum
+                    </p>
+                </h3>
+                <div class="forum-box-chat">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="box-chat">
+                                <div class="chat-item">
+                                    <div class="chat-avatar">
+                                        <img src="./images/chat-avatar.png" alt="">
+                                    </div>
+                                    <div class="chat-content">
+                                        <p class="chat-name">
+                                            Trang Vũ
+                                        </p>
+                                        <div class="content">
+                                           <p>
+                                            Hi, how are you ?
+                                           </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-item chat-rep">
+                                    <div class="chat-avatar">
+                                        <img src="./images/chat-avatar-2.png" alt="">
+                                    </div>
+                                    <div class="chat-content">
+                                        <p class="chat-name">
+                                            Quỳnh Như
+                                        </p>
+
+                                        <div class="content-repeat">
+                                            <p class="arrow">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 42.67 64" width="10" height="14">
+
+                                                    <defs>
+                                                        <style>
+                                                            .cls-1 {
+                                                                fill: #828282;
+                                                            }
+                                                        </style>
+                                                    </defs>
+                                                    <title>Asset 45</title>
+                                                    <g id="Layer_2" data-name="Layer 2">
+                                                        <g id="Layer_1-2" data-name="Layer 1">
+                                                            <path class="cls-1"
+                                                                d="M19.57.78.78,19.5a2.67,2.67,0,0,0,3.77,3.78L18.67,9.21V61.33a2.67,2.67,0,1,0,5.33,0V9L38.11,23.27a2.67,2.67,0,1,0,3.78-3.76L23.35.79a2.67,2.67,0,0,0-3.78,0Z" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </p>
+                                           <p>
+                                            Hi, how are you ?
+                                           </p>
+                                        </div>
+                                        <div class="content-rep">
+                                           <p>
+                                            Reference site about Lorem Ipsum, giving information on its origins, as well as a random.
+                                           </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
     </main>
 
